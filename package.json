@@ -4,12 +4,14 @@
   "description": "Joni talk to docker via websocket!",
   "main": "index.js",
   "scripts": {
-    "start" : "node server"
+    "start": "node server"
   },
   "author": "Dhi Aurrahman <diorahman@rockybars.com>",
   "license": "ISC",
   "dependencies": {
     "dockerode": "^2.2.3",
+    "http-hash-router": "^1.1.0",
+    "st": "^1.0.0",
     "ws": "^0.8.0"
   }
 }
